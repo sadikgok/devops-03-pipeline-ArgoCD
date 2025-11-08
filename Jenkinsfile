@@ -8,7 +8,7 @@ pipeline {
     //agent any
  
     environment {
-        APP_NAME = "devops-03-pipeline-ArgoCD"
+        APP_NAME = "devops-03-pipeline-aws-gitops"
     }
 
 
