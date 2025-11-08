@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-03-pipeline-cd
-          image: sadikgok/devops-03-pipeline-aws-gitops:1.0.16
+          image: sadikgok/devops-03-pipeline-aws-gitops:1.0.17
           resources:
             limits:
               memory: "256Mi"
