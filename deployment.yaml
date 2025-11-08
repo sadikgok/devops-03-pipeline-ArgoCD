@@ -1,1 +1,23 @@
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-03-pipeline-cd-deployment
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: devops-03-pipeline-cd
+  template:
+    metadata:
+      labels:
+        app: devops-03-pipeline-cd
+    spec:
+      containers:
+        - name: devops-03-pipeline-cd
+          image: sadikgok/devops-03-pipeline-aws-gitops:1.0.41
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8080   # Pod içindeki .jar uygulamanın portu
