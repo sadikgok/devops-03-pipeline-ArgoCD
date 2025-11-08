@@ -40,7 +40,7 @@ stage("Update the Deployment Tags") {
            echo "Before update:"
            cat deployment.yaml
 
-           sed -i "s|\\(image: *mimaraslan/devops-03-pipeline-aws:\\).*|\\1${IMAGE_TAG}|" deployment.yaml
+           sed -i "s|\\(image: *sadikgok/devops-03-pipeline-aws-gitops:\\).*|\\1${IMAGE_TAG}|" deployment.yaml
 
            echo "After update:"
            cat deployment.yaml
@@ -48,7 +48,7 @@ stage("Update the Deployment Tags") {
     }
 }
 
-
+/*
 stage("Push the changed deployment file to Git") {
   steps {
     withCredentials([usernamePassword(
@@ -81,7 +81,7 @@ stage("Push the changed deployment file to Git") {
     }
   }
 }
-
+*/
 
 
     }
