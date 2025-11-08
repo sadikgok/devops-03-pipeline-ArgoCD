@@ -76,7 +76,7 @@ stage("Push the changed deployment file to Git") {
                 git commit -m "Updated Deployment Manifest"
 
 # Token'ı URL'de kullan; Jenkins maskeler
-                git push "https://${GIT_USER}:${GIT_TOKEN}@github.com/sadikgok/devops-03-pipeline-ArgoCD" HEAD:master
+                git push "https://${GIT_USER}:${GIT_TOKEN}@github.com/sadikgok/devops-03-pipeline-ArgoCD" HEAD:main
 '''
     }
   }
