@@ -48,11 +48,11 @@ stage("Update the Deployment Tags") {
     }
 }
 
-/*
+
 stage("Push the changed deployment file to Git") {
   steps {
     withCredentials([usernamePassword(
-      credentialsId: 'github',             // Jenkins'teki ID (büyük/küçük harfe dikkat)
+      credentialsId: 'GithubToken',             // Jenkins'teki ID (büyük/küçük harfe dikkat)
       usernameVariable: 'GIT_USER',
       passwordVariable: 'GIT_TOKEN'
     )]) {
@@ -76,12 +76,12 @@ stage("Push the changed deployment file to Git") {
                 git commit -m "Updated Deployment Manifest"
 
 # Token'ı URL'de kullan; Jenkins maskeler
-                git push "https://${GIT_USER}:${GIT_TOKEN}@github.com/sadikgok/devops-03-pipeline-aws-gitops" HEAD:master
+                git push "https://${GIT_USER}:${GIT_TOKEN}@github.com/sadikgok/devops-03-pipeline-ArgoCD" HEAD:master
 '''
     }
   }
 }
-*/
+
 
 
     }
