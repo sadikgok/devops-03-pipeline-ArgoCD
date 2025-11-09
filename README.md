@@ -1,7 +1,4 @@
-
-<img width="1552" height="734" alt="img_1" src="https://github.com/user-attachments/assets/81f3a4a3-6453-4991-921b-d59fed978ffa" />
-
-# AWS DevOps CI/CD & GitOps Pipeline
+# 🚀 AWS DevOps CI/CD & GitOps Pipeline
 
 This repository demonstrates a **production-grade CI/CD & GitOps pipeline** deployed on **AWS EKS**, integrating modern DevOps tools to ensure continuous integration, delivery, and deployment with full automation, quality, and security.
 
@@ -50,6 +47,13 @@ The end-to-end DevOps pipeline consists of the following stages:
 
 ---
 
+## 🧱 System Architecture Diagram
+
+*(You can replace this placeholder with your own diagram image)*  
+![Pipeline Architecture](./docs/pipeline-architecture.png)
+
+---
+
 ## ⚙️ Prerequisites
 Before setup, ensure the following:
 - AWS Account with EC2 access  
@@ -64,4 +68,35 @@ Before setup, ensure the following:
 
 ```text
 GitHub → Jenkins → SonarQube → Trivy → DockerHub → ArgoCD → Kubernetes (EKS) → Notification
+```
 
+Each stage ensures **quality, security, and automation** from code commit to live deployment.
+
+---
+
+## 📘 Full Documentation
+For a complete step-by-step installation and configuration guide, please refer to:  
+👉 [docs/installation.md](./docs/installation.md)
+
+---
+
+## 🧾 Next Steps
+- [ ] Add Terraform automation for EC2 and EKS provisioning  
+- [ ] Integrate Prometheus & Grafana for observability  
+- [ ] Add Slack notifications for build events  
+
+---
+
+## 👨‍💻 Author
+
+**Sadık Gök**  
+DevOps Engineer | AWS | Jenkins | Docker | Kubernetes | ArgoCD | Terraform  
+
+📫 **Contact:**  
+- [GitHub](https://github.com/sadikgok)  
+- [LinkedIn](https://linkedin.com/in/sadik-gok)  
+- ✉️ Email: sadik.gok@gmail.com  
+
+---
+
+⭐ *If you found this project helpful, consider starring the repo and following for more DevOps automation projects.*
