@@ -50,13 +50,6 @@ The end-to-end DevOps pipeline consists of the following stages:
 
 ---
 
-## 🧱 System Architecture Diagram
-
-*(You can replace this placeholder with your own diagram image)*  
-![Pipeline Architecture](./docs/pipeline-architecture.png)
-
----
-
 ## ⚙️ Prerequisites
 Before setup, ensure the following:
 - AWS Account with EC2 access  
