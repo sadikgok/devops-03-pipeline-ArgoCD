@@ -1,4 +1,5 @@
 
+<img width="1552" height="734" alt="devops" src="https://github.com/user-attachments/assets/e8e6f0c2-99fb-4277-a915-5d4868f8e3ed" />
 
 # 🚀 AWS DevOps CI/CD & GitOps Pipeline
 
