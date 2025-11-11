@@ -1,3 +1,5 @@
+
+
 # 🚀 AWS DevOps CI/CD & GitOps Pipeline
 
 This repository demonstrates a **production-grade CI/CD & GitOps pipeline** deployed on **AWS EKS**, integrating modern DevOps tools to ensure continuous integration, delivery, and deployment with full automation, quality, and security.
